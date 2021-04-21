@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/select_backk"
+    tools:context="com.example.gujratdarsan.MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="horizontal" 
+     android:id="@+id/one_e">
+
+            <ImageView
+                android:id="@+id/a_img"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/tourist" />
+
+            <TextView
+                android:id="@+id/a_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:padding="3dp"
+                android:text="Tourist Place"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+             <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="horizontal"
+     android:id="@+id/two_e" >
+            <ImageView
+                android:id="@+id/b_img"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/festivall" />
+            
+            <TextView
+                android:id="@+id/b_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:padding="3dp"
+                android:text="Festival"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:text="See what I can do."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#8ac1e0" />
+
+"
+
+</RelativeLayout>

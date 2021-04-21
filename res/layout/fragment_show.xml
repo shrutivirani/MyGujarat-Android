@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.dlt.Show$PlaceholderFragment" >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="#70000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Information"
+             android:background="#db2121"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+  
+         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/En"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#EEEEEE"
+            android:text="English" />
+
+        <Button
+            android:id="@+id/Gu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="#db2121"
+            android:text="ગુજરાતી"
+            android:textColor="#EEEEEE" />
+
+</LinearLayout>
+        <TextView
+            android:id="@+id/info_tx"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:padding="20dp"
+            android:text="nmdgs  dbbsk gsjdkg d\bjk gsddklnlnn gsdjgdhgjsdh gsdjhgsd hgsd g sdjgsdj "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+<RelativeLayout
+    android:id="@+id/map_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+     >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+               
+                android:background="#db2121"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:paddingLeft="60dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                android:text="Distance"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageVi1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_a"
+                android:scaleType="fitStart"
+                android:src="@drawable/maps_icon" />
+            
+</RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.2"
+                android:background="#db2121"
+                android:gravity="center_horizontal"
+                android:paddingLeft="20dp"
+                android:text="Photos"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFFFF" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginBottom="20dp"
+     >
+
+    <ImageView
+        android:id="@+id/vvvv"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gt" />
+
+    <ImageView
+        android:id="@+id/imageVie2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/photosicon" />
+
+</RelativeLayout>
+     </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

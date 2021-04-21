@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/select_backk"
+    android:orientation="vertical"
+    tools:context="com.example.gujratdarsan.MainActivity" >
+
+    <!--
+         <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:padding="5dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="5dp"
+        
+        android:stretchMode="spacingWidthUniform"
+        android:gravity="center"
+      />
+    -->
+
+    
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+
+<ImageView
+    android:id="@+id/image1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#90000000"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    />
+
+</LinearLayout>
